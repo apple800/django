@@ -16,3 +16,8 @@ django-admin startproject config .
 3. 웹 사이트 구동하기
 
 python manage.py runserver
+
+
+4. django-admin의 startapp 명령을 이용하여 pybo앱을 생성하기
+
+django-admin startapp pybo
