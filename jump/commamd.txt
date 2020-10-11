@@ -36,3 +36,8 @@ python manage.py makemigrations
 7. makemigrations 실행 후 실제 테이블 생성하기
 
 python manage.py migrate
+
+
+8. 장고 관리자 화면에 접속할 수 있는 슈퍼유저 생성하기
+
+python manage.py createsuperuser
