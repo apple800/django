@@ -26,3 +26,13 @@ django-admin startapp pybo
 5. 프로젝트 생성시 기본적으로 설치되는 앱들이 필요로 하는 테이블(데이터베이스에서 저장하기 위한 데이터 집합의 모임) 생성하기
 
 python manage.py migrate
+
+
+6. 모델에서 테이블 생성 후 makemigrations 명령 수행하기
+
+python manage.py makemigrations
+
+
+7. makemigrations 실행 후 실제 테이블 생성하기
+
+python manage.py migrate
