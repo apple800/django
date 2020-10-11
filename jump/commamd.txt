@@ -21,3 +21,8 @@ python manage.py runserver
 4. django-admin의 startapp 명령을 이용하여 pybo앱을 생성하기
 
 django-admin startapp pybo
+
+
+5. 프로젝트 생성시 기본적으로 설치되는 앱들이 필요로 하는 테이블(데이터베이스에서 저장하기 위한 데이터 집합의 모임) 생성하기
+
+python manage.py migrate
