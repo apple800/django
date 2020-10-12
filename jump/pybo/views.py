@@ -6,6 +6,6 @@ def index(request):
     """
     pybo 목록 출력
     """
-    quesion_list = Question. objects.order_by('-create_date')
+    question_list = Question. objects.order_by('-create_date')
     context = {'question_list': question_list}
-    return render(request, 'pybno/question_list.html', context)
+    return render(request, 'pybo/question_list.html', context)
