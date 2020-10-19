@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if question_list %}
+    <ul>
+        {% for question in question_list %}
+            <li><a href="{% url 'pybo:detail' question.id %}">{{question.subject}}</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}
+<a href="{% url 'pybo:question_create' %}">질문 등록하기</a>
+{% endblock %}
